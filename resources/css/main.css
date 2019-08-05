@@ -1,0 +1,124 @@
+.dragsection {
+    background-color: bisque;
+}
+
+body {
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 13px;
+    color: #2d353c;
+    -webkit-font-smoothing: antialiased;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: 400;
+    margin: 24px 0;
+}
+
+textarea {
+    font-family: monospace;
+    width: 500px;
+    height: 100px;
+}
+
+.dotted {
+    border: 8px dashed #ccc;
+}
+
+.dragging {
+    border: 8px dashed #333;
+}
+
+input {
+    margin: 5px;
+}
+
+.layout-main {
+    margin-left: 60px;
+    margin-right: 60px;
+    padding: 30px 6px 0px 6px;
+    -moz-transition: margin-left 0.3s;
+    -o-transition: margin-left 0.3s;
+    -webkit-transition: margin-left 0.3s;
+    transition: margin-left 0.3s;
+}
+
+.keyver {
+    width: 25px;
+}
+
+.consumer_id {
+    width: 230px;
+}
+
+.base_url {
+    width: 230px;
+}
+
+.timestamp {
+    width: 120px;
+}
+
+.auth_signature {
+    width: 350px;
+}
+
+.errmessage {
+    margin: 10px;
+    color: red;
+    font-size: x-large;
+}
+
+.message {
+    margin: 10px;
+    font-size: medium;
+    color: blue;
+}
+
+.popup_content {
+    margin: 10px;
+    padding: 0 10px;
+    max-width: 60%;
+    border: 2px solid #444;
+    background: white;
+}
+
+.additionalheader {
+    padding: 0px 2px 0px 15px;
+}
+
+.additionalheader p {
+    font-weight: bolder;
+}
+
+.code {
+    width: 600px;
+    margin-top: 16px !important;
+    margin-bottom: 16px !important;
+    background-color: #fff;
+    padding: 8px 12px;
+    border-left: 4px solid #4CAF50;
+    word-wrap: break-word;
+    font-family: Consolas, "courier new";
+    font-size: 16px;
+}
+
+.msgbody {
+    width: 120px;
+    height: 35px;
+}
+
+.header_key {
+    font-weight: bolder;
+    padding: 3px 6px 0px 6px;
+    width: 300px;
+    display: inline-block;
+}
+
+.header_val {
+    font-weight: bolder;
+    padding: 3px 6px 0px 6px;
+}

@@ -1,0 +1,29 @@
+# Local Signature project (SecretBuddy)
+
+## Motivation
+Signatuire generation is a key concept of App2App authentication, however, there's no simple tool available.  
+We ask to use SignatureGenerate.java for even non-technical people.  This is a mental burden.  
+Because it requires PRIVATE KEY, we do not want to submit the form to the server.  Here comes AuthMan. 
+
+* Process in local, no installation.
+* Intuitive GUI
+* Both Authentication and Validation
+* License Free (BSD / Apache Liceense)
+
+## HowTo
+Simply open index.html from browser.  Tested on Chrome.  It supports both 1-liner key or 64 bytes new line delimited PEM form.  
+
+#CI/CD
+https://ci.electrode.walmart.com/job/microservices/job/Yeti/job/Security%20Buddy%20Docker%20deploy/
+
+## TODO
+* Drag & Drop pem files (HTML5) - DONE
+* JQuery to React?  
+* Curl support - DONE
+# Deploy WCNP through Kitt
+
+## Reference
+Pure javascript cryptographic library: jsrsasign  
+http://kjur.github.io/jsrsasign/
+
+
