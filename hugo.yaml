@@ -1,0 +1,59 @@
+# Site settings. Change baseURL once the GitHub username / custom domain is decided.
+baseURL: "https://mocchidesu.github.io/"
+languageCode: en-us
+title: "Breaks at Scale"
+theme: PaperMod
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  description: "Root-cause analysis from running a service mesh across a thousand-plus Kubernetes clusters."
+  defaultTheme: auto
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+  disableSpecial1stPost: true
+
+  homeInfoParams:
+    Title: "Breaks at Scale"
+    Content: >
+      Root-cause analysis from service mesh infrastructure (Istio/Envoy) running across
+      well over a thousand Kubernetes clusters: things that only break at scale, and what
+      they taught me about the layers underneath.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/mocchidesu"
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: about
+      name: About
+      url: /about/
+      weight: 20
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 30
+
+markup:
+  highlight:
+    noClasses: false
+    lineNos: false
+  goldmark:
+    renderer:
+      unsafe: true
