@@ -27,9 +27,9 @@ params:
   homeInfoParams:
     Title: "Breaks at Scale"
     Content: >
-      Root-cause analysis from service mesh infrastructure (Istio/Envoy) running across
-      well over a thousand Kubernetes clusters: things that only break at scale, and what
-      they taught me about the layers underneath.
+      Root-cause analysis from the service mesh behind one of the world's largest e-commerce
+      platforms: Istio and Envoy across a thousand-plus Kubernetes clusters. The incidents are
+      real, the dead ends are left in, and every post ends with what to check in your own cluster.
 
   socialIcons:
     - name: github
