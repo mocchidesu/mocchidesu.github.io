@@ -10,4 +10,4 @@ New post:
 
     hugo new posts/my-post.md
 
-Set `draft: false` in the front matter to publish. Replace `mocchidesu` / `LINKEDIN_HANDLE` in `hugo.yaml` before the first push.
+Set `draft: false` in the front matter to publish.
