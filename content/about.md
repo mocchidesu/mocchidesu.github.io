@@ -5,9 +5,9 @@ ShowToc: false
 ShowReadingTime: false
 ---
 
-<img src="/images/me.jpg" alt="Hide Morimoto" class="about-photo">
+<div class="about-card"><img src="/images/me.jpg" alt="Hide"><span class="about-name">Hide</span></div>
 
-I'm Hide. I keep one of the largest Istio deployments in the world running.
+One of the largest Istio deployments in the world runs across my desk. This is where I write down what it breaks.
 
 I came up through the wire: network and VoIP engineering, where a dropped packet is a dropped phone call and you learn to read a tcpdump the way other people read logs. I took that into startups, building the infrastructure for products that had not yet earned the right to go down, and then into platform engineering at one of the world's largest e-commerce companies.
 
@@ -17,4 +17,4 @@ That is what this blog is about. Not tutorials, not "ten tips", but the actual i
 
 Opinions are my own. Incidents are real; names and numbers are anonymized.
 
-Find me on [GitHub](https://github.com/mocchidesu) or [LinkedIn](https://www.linkedin.com/in/hidetomo-morimoto-41b1168/).
+Find me on [LinkedIn](https://www.linkedin.com/in/hidetomo-morimoto-41b1168/).

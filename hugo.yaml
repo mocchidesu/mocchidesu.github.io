@@ -32,8 +32,6 @@ params:
       real, the dead ends are left in, and every post ends with what to check in your own cluster.
 
   socialIcons:
-    - name: github
-      url: "https://github.com/mocchidesu"
     - name: linkedin
       url: "https://www.linkedin.com/in/hidetomo-morimoto-41b1168/"
 
