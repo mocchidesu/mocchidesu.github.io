@@ -1,7 +1,7 @@
 ---
 title: "When Two Istio Revisions Fight Over the Same ServiceEntry"
 date: 2026-10-15
-draft: true
+draft: false
 tags: ["istio", "envoy", "kubernetes", "service-mesh", "rca"]
 summary: "A canary upgrade of a mesh-config controller produced intermittent 503 UH with nothing obviously wrong. The root cause was an ownership problem the Istio revision model never promises to solve for you."
 ---
