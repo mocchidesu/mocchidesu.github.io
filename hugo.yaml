@@ -34,6 +34,8 @@ params:
   socialIcons:
     - name: github
       url: "https://github.com/mocchidesu"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/hidetomo-morimoto-41b1168/"
 
 menu:
   main:
